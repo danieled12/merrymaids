@@ -11,7 +11,7 @@ body {
 	font-family: Lithos Pro;
 }
 
-@media (max-width: 1200px)
+@media screen and (max-width: 1200px)
 {
     header
     {
@@ -19,7 +19,7 @@ body {
     }
 }
 
-@media (max-width: 1200px)
+@media screen and (max-width: 1200px)
 {
     .backgroundofdivgreen
     {
@@ -27,7 +27,7 @@ body {
     }
 }
 
-@media (max-width: 600px)
+@media screen and (max-width: 600px)
 {
     .sectiontop img
     {
@@ -35,7 +35,7 @@ body {
     }
 }
 
-@media (max-width: 600px)
+@media screen and (max-width: 600px)
 {
     .text
     {
@@ -44,7 +44,7 @@ body {
     }
 }
 
-@media (max-width: 1023px)
+@media screen and (max-width: 1023px)
 {
     body .yellow
     {
@@ -53,7 +53,7 @@ body {
     }
 }
 
-@media (max-width: 1023px)
+@media screen and (max-width: 1023px)
 {
     body .green
     {
@@ -62,11 +62,27 @@ body {
     }
 }
 
-@media (min-width: 1200px)
+@media screen and (min-width: 1200px)
 {
     .mobile-container
     {
 				display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px)
+{
+    body nav
+    {
+				margin-right: 5%
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px)
+{
+    body .logo
+    {
+				margin-left: 5%
     }
 }
 
